@@ -22,17 +22,25 @@
 
     <!-- Style for a TextView (info about activity) -->
     <style name="TextViewInfoStyle">
-        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textStyle">italic</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_gravity">center</item>
-
-
-        <!--app:layout_constraintLeft_toLeftOf="parent"-->
-        <!--app:layout_constraintRight_toRightOf="parent"-->
-        <!--app:layout_constraintTop_toTopOf="parent"-->
-        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/text_view_info_margin_top</item>
     </style>
+
+    <!-- Style for a Button -->
+    <style name="ButtonCenter">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <!-- Style for a Button go to "Now Playing" -->
+    <style name="ButtonGoToNowPlaying" parent="ButtonCenter">
+        <item name="android:text">@string/button_now_playing</item>
+    </style>
+
 </resources>

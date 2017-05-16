@@ -6,4 +6,6 @@
     <dimen name="list_item_padding">16dp</dimen>
     <!-- Text size of each list item -->
     <dimen name="list_text_size">16sp</dimen>
+    <!-- Top margin of TextView displaying info about an activity -->
+    <dimen name="text_view_info_margin_top">50dp</dimen>
 </resources>

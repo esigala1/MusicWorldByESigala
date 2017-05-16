@@ -29,4 +29,9 @@
     <string name="activity_name_gender">Gender</string>
     <!-- Info about "Now Playing" activity. -->
     <string name="text_view_info_gender">Gender Activity...</string>
+
+    <!-- Button texts -->
+    <string name="button_now_playing">Now Playing</string>
+    <string name="button_main_screen">Main</string>
+
 </resources>
