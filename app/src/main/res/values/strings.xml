@@ -1,3 +1,32 @@
 <resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Music World</string>
+    <!-- Category name for "Now Playing" [CHAR LIMIT=20] -->
+    <string name="category_now_playing">Now Playing</string>
+    <!-- Category name for "Songs" [CHAR LIMIT=20] -->
+    <string name="category_songs">Songs</string>
+    <!-- Category name for "Artist" [CHAR LIMIT=20] -->
+    <string name="category_artist">Artist</string>
+    <!-- Category name for "Gender" [CHAR LIMIT=20] -->
+    <string name="category_gender">Gender</string>
+
+    <!-- Title for "Now Playing" activity. [CHAR LIMIT=12] -->
+    <string name="activity_name_now_playing">Now Playing</string>
+    <!-- Info about "Now Playing" activity. -->
+    <string name="text_view_info_now_playing">Now Playing Activity...</string>
+
+    <!-- Title for "Songs" activity. [CHAR LIMIT=12] -->
+    <string name="activity_name_songs">Songs</string>
+    <!-- Info about "Now Playing" activity. -->
+    <string name="text_view_info_songs">Songs Activity...</string>
+
+    <!-- Title for "Artist" activity. [CHAR LIMIT=12] -->
+    <string name="activity_name_artist">Artist</string>
+    <!-- Info about "Now Playing" activity. -->
+    <string name="text_view_info_artist">Artist Activity...</string>
+
+    <!-- Title for "Gender" activity. [CHAR LIMIT=12] -->
+    <string name="activity_name_gender">Gender</string>
+    <!-- Info about "Now Playing" activity. -->
+    <string name="text_view_info_gender">Gender Activity...</string>
 </resources>

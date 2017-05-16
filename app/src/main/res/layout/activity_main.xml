@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="net.bplaced.esigala1.musicworld.MainActivity">
+    android:background="@drawable/ocean_background"
+    tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+        <TextView
+            android:id="@+id/textViewNowPlaying"
+            style="@style/ListItemStyle"
+            android:text="@string/category_now_playing" />
+
+        <TextView
+            android:id="@+id/textViewSongs"
+            style="@style/ListItemStyle"
+            android:text="@string/category_songs" />
+
+        <TextView
+            android:id="@+id/textViewArtist"
+            style="@style/ListItemStyle"
+            android:text="@string/category_artist" />
+
+        <TextView
+            android:id="@+id/textViewGender"
+            style="@style/ListItemStyle"
+            android:text="@string/category_gender" />
+
+    </LinearLayout>
+
+</ScrollView>
