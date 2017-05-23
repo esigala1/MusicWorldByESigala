@@ -23,8 +23,8 @@
             android:label="@string/activity_name_songs" />
         <activity android:name=".ArtistActivity"
             android:label="@string/activity_name_artist" />
-        <activity android:name=".GenderActivity"
-            android:label="@string/activity_name_gender" />
+        <activity android:name=".SongOfTheDayActivity"
+            android:label="@string/activity_name_song_of_the_day" />
     </application>
 
 </manifest>

@@ -4,11 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backgroundGender"
-    tools:context=".GenderActivity">
+    tools:context=".SongOfTheDayActivity">
 
     <TextView
+        android:id="@+id/textview_gender"
         style="@style/TextViewInfoStyle"
-        android:text="@string/text_view_info_gender" />
+        android:text="@string/text_view_info_song_of_the_day" />
 
     <Button
         android:id="@+id/button_activity_gender_to_now_playing"

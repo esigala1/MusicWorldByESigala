@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.media.MediaPlayer;  // This namespace will be used to import a MediaPlayer.
 
 public class NowPlayingActivity extends AppCompatActivity {
 

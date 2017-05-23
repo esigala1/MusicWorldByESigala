@@ -7,13 +7,17 @@
     <string name="category_songs">Songs</string>
     <!-- Category name for "Artist" [CHAR LIMIT=20] -->
     <string name="category_artist">Artist</string>
-    <!-- Category name for "Gender" [CHAR LIMIT=20] -->
-    <string name="category_gender">Gender</string>
+    <!-- Category name for "Song of the Day" [CHAR LIMIT=20] -->
+    <string name="category_song_of_the_day">Song of the Day</string>
 
     <!-- Title for "Now Playing" activity. [CHAR LIMIT=12] -->
     <string name="activity_name_now_playing">Now Playing</string>
-    <!-- Info about "Now Playing" activity. -->
-    <string name="text_view_info_now_playing">Now Playing Activity...</string>
+    <!-- Artist/Band Name. -->
+    <string name="text_view_artist_band">Artist/Band Name</string>
+    <!-- Song Title. -->
+    <string name="text_view_song_title">Song Title</string>
+    <!-- Text to indicate the position of the media player. -->
+    <string name="media_player_here">Media Player here...</string>
 
     <!-- Title for "Songs" activity. [CHAR LIMIT=12] -->
     <string name="activity_name_songs">Songs</string>
@@ -25,13 +29,13 @@
     <!-- Info about "Now Playing" activity. -->
     <string name="text_view_info_artist">Artist Activity...</string>
 
-    <!-- Title for "Gender" activity. [CHAR LIMIT=12] -->
-    <string name="activity_name_gender">Gender</string>
-    <!-- Info about "Now Playing" activity. -->
-    <string name="text_view_info_gender">Gender Activity...</string>
+    <!-- Title for "Song Of The Day" activity. [CHAR LIMIT=12] -->
+    <string name="activity_name_song_of_the_day">Song of the Day</string>
+    <!-- Info about "Song Of The Day" activity. -->
+    <string name="text_view_info_song_of_the_day">Song of the Day Activity...</string>
 
     <!-- Button texts -->
     <string name="button_now_playing">Now Playing</string>
-    <string name="button_main_screen">Main</string>
+    <string name="button_home">Go Home</string>
 
 </resources>

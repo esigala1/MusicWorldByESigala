@@ -8,4 +8,12 @@
     <dimen name="list_text_size">16sp</dimen>
     <!-- Top margin of TextView displaying info about an activity -->
     <dimen name="text_view_info_margin_top">50dp</dimen>
+    <!-- Top margin of TextView displaying the Song Title -->
+    <dimen name="margin_top_song_title">10dp</dimen>
+    <!-- Media Player margin -->
+    <dimen name="media_player_margin">30dp</dimen>
+    <!-- Media Player height -->
+    <dimen name="media_player_height">80dp</dimen>
+    <!-- Song title text size. -->
+    <dimen name="song_title_size">20sp</dimen>
 </resources>

@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
         ((TextView)findViewById(R.id.textViewGender)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Create a new Explicit Intent to open the {@link GenderActivity}.
-                Intent genderIntent = new Intent(MainActivity.this, GenderActivity.class);
+                // Create a new Explicit Intent to open the {@link SongOfTheDayActivity}.
+                Intent genderIntent = new Intent(MainActivity.this, SongOfTheDayActivity.class);
                 // Start the new activity.
                 startActivity(genderIntent);
             }
