@@ -33,9 +33,7 @@
 
     <Button
         android:id="@+id/button_now_playing_activity_to_main"
-        style="@style/ButtonCenter"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="@dimen/list_item_padding"
+        style="@style/ButtonBottomCenter"
         android:background="@color/colorPrimary"
         android:text="@string/button_home"
         android:textColor="@android:color/white" />
