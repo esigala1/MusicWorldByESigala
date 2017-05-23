@@ -3,16 +3,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroundGender"
+    android:background="@color/backgroundSongOfTheDay"
     tools:context=".SongOfTheDayActivity">
 
     <TextView
-        android:id="@+id/textview_gender"
+        android:id="@+id/text_view_song_of_the_day_title"
         style="@style/TextViewInfoStyle"
-        android:text="@string/text_view_info_song_of_the_day" />
+        android:text="@string/text_view_song_of_the_day_title"
+        android:textSize="@dimen/song_title_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_of_the_day_artist_band"
+        style="@style/TextViewInfoStyle"
+        android:layout_below="@id/text_view_song_of_the_day_title"
+        android:layout_marginTop="@dimen/app_view_distance"
+        android:text="@string/text_view_song_of_the_day_artist_band" />
 
     <Button
-        android:id="@+id/button_activity_gender_to_now_playing"
+        android:id="@+id/button_activity_song_of_the_day_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_of_the_day_artist_band"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/app_view_distance"
+        android:background="@android:color/black"
+        android:padding="@dimen/app_view_distance"
+        android:text="@string/button_play_song_of_the_day"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button_activity_song_of_the_day_to_now_playing"
         style="@style/ButtonGoToNowPlaying" />
 
 </RelativeLayout>

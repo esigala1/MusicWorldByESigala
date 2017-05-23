@@ -7,11 +7,22 @@
     tools:context=".SongsActivity">
 
     <TextView
+        android:id="@+id/text_view_songs_activity_about"
         style="@style/TextViewInfoStyle"
         android:text="@string/text_view_info_songs" />
 
     <Button
         android:id="@+id/button_activity_songs_to_now_playing"
         style="@style/ButtonGoToNowPlaying" />
+
+    <ListView
+        android:id="@+id/listview_songs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/button_activity_songs_to_now_playing"
+        android:layout_below="@id/text_view_songs_activity_about"
+        android:layout_margin="@dimen/app_view_distance"
+        android:alpha="0.8"
+        android:background="@android:color/white" />
 
 </RelativeLayout>

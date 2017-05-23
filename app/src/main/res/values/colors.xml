@@ -14,6 +14,6 @@
     <color name="backgroundSongs">#8a1e8f</color>
     <!-- Background color of "Artist" activity -->
     <color name="backgroundArtist">#8c6117</color>
-    <!-- Background color of "Gender" activity -->
-    <color name="backgroundGender">#3248a1</color>
+    <!-- Background color of "Song of the Day" activity -->
+    <color name="backgroundSongOfTheDay">#3248a1</color>
 </resources>

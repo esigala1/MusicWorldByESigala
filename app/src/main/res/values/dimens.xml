@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Margin/Padding used between views -->
+    <dimen name="app_view_distance">16dp</dimen>
     <!-- Height of each list item -->
     <dimen name="list_item_height">60dp</dimen>
     <!-- Padding of each list item -->
     <dimen name="list_item_padding">16dp</dimen>
-    <!-- Text size of each list item -->
-    <dimen name="list_text_size">16sp</dimen>
     <!-- Top margin of TextView displaying info about an activity -->
     <dimen name="text_view_info_margin_top">20dp</dimen>
-    <!-- Top margin of TextView displaying the Song Title -->
-    <dimen name="margin_top_song_title">10dp</dimen>
     <!-- Media Player margin -->
     <dimen name="media_player_margin">30dp</dimen>
     <!-- Media Player height -->
     <dimen name="media_player_height">80dp</dimen>
-    <!-- Song title text size. -->
+
+    <!-- Text size of each list item -->
+    <dimen name="list_text_size">16sp</dimen>
+    <!-- Song title text size -->
     <dimen name="song_title_size">20sp</dimen>
 </resources>

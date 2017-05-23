@@ -22,7 +22,7 @@
         <activity android:name=".SongsActivity"
             android:label="@string/activity_name_songs" />
         <activity android:name=".ArtistActivity"
-            android:label="@string/activity_name_artist" />
+            android:label="@string/activity_name_artist_band" />
         <activity android:name=".SongOfTheDayActivity"
             android:label="@string/activity_name_song_of_the_day" />
     </application>

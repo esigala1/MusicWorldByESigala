@@ -28,6 +28,8 @@
         <item name="android:textStyle">italic</item>
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_marginTop">@dimen/text_view_info_margin_top</item>
+        <item name="android:layout_marginLeft">@dimen/text_view_info_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/text_view_info_margin_top</item>
     </style>
 
     <!-- Style for a Button -->
@@ -36,7 +38,9 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_alignParentBottom">true</item>
-        <item name="android:layout_marginBottom">@dimen/list_item_padding</item>
+        <item name="android:layout_marginBottom">@dimen/app_view_distance</item>
+        <item name="android:paddingLeft">@dimen/app_view_distance</item>
+        <item name="android:paddingRight">@dimen/app_view_distance</item>
     </style>
 
     <!-- Style for a Button go to "Now Playing" -->

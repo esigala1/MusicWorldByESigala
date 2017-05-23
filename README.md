@@ -7,7 +7,7 @@ Developed for the **Udacity** Nanodegree Program **_"Android Basics Nanodegree b
 
 <div align="center">
   <br><br>
-  <img src="https://c1.staticflickr.com/5/4224/34689093172_2fbab89037_z.jpg" height="400" width="240"></img>
+  <img src="https://c1.staticflickr.com/5/4199/34813692136_9ef6138a09_z.jpg" height="400" width="240"></img>
   <br><br>
 </div>
 

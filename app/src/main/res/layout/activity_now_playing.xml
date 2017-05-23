@@ -17,19 +17,21 @@
         android:id="@+id/text_view_artist_band"
         style="@style/TextViewInfoStyle"
         android:layout_below="@id/text_view_song_title"
-        android:layout_marginTop="@dimen/margin_top_song_title"
+        android:layout_marginTop="@dimen/app_view_distance"
         android:text="@string/text_view_artist_band" />
 
     <TextView
         android:id="@+id/media_player"
         android:layout_width="match_parent"
         android:layout_height="@dimen/media_player_height"
+        android:layout_below="@id/text_view_artist_band"
+        android:layout_margin="@dimen/media_player_margin"
+        android:alpha="0.7"
         android:background="@android:color/black"
+        android:gravity="center"
         android:text="@string/media_player_here"
         android:textColor="@android:color/white"
-        android:gravity="center"
-        android:layout_margin="@dimen/media_player_margin"
-        android:layout_below="@id/text_view_artist_band"/>
+        android:textStyle="italic"/>
 
     <Button
         android:id="@+id/button_now_playing_activity_to_main"
