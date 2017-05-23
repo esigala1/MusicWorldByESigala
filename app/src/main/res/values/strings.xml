@@ -12,10 +12,10 @@
 
     <!-- Title for "Now Playing" activity. [CHAR LIMIT=12] -->
     <string name="activity_name_now_playing">Now Playing</string>
-    <!-- Artist/Band Name. -->
-    <string name="text_view_artist_band">Artist/Band Name here...</string>
-    <!-- Song Title. -->
-    <string name="text_view_song_title">Song Title here...</string>
+    <!-- Now playing => Song Title. -->
+    <string name="text_view_song_title">Now Playing (Song title here...)</string>
+    <!-- Now playing => Artist/Band Name. -->
+    <string name="text_view_artist_band">Now Playing (Artist/Band here...)</string>
     <!-- Text to indicate the position of the media player. -->
     <string name="media_player_here">Add the Media Player here...</string>
 
@@ -33,7 +33,7 @@
     <string name="activity_name_song_of_the_day">Song of the Day</string>
     <!-- Song of the day => Title. -->
     <string name="text_view_song_of_the_day_title">Song of the Day (Title here...)</string>
-    <!-- Song of the day => Artist/Band. -->
+    <!-- Song of the day => Artist/Band name. -->
     <string name="text_view_song_of_the_day_artist_band">Song of the Day (Artist/Band here...)</string>
     <!-- Toast message for playing the song of the day. -->
     <string name="playing_the_song_of_the_day">Play the song of the day...</string>
