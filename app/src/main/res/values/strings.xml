@@ -11,12 +11,12 @@
     <string name="category_song_of_the_day">@string/activity_name_song_of_the_day</string>
 
     <!-- Info about Main activity. -->
-    <string name="text_view_main_info">This screen is the main screen of the app and contains links to the rest activities of the app.</string>
+    <string name="text_view_main_info">This screen is the main screen of the app. Contains clickable TextViews that open the required activities (the rest activities of the app).</string>
 
     <!-- Title for "Now Playing" activity. [CHAR LIMIT=12] -->
     <string name="activity_name_now_playing">Now Playing</string>
     <!-- Info about "Now Playing" activity. -->
-    <string name="text_view_now_playing_info">This screen contains info about the song that is currently playing from the media player.</string>
+    <string name="text_view_now_playing_info">This screen contains the Media Player (song play/pause/rewind/forward) and info about the song that is currently playing. Note: \"android.media.MediaPlayer\" namespace must be imported to be able to use the \"MediaPlayer\" class.</string>
     <!-- Text to indicate the position of the media player. -->
     <string name="media_player_here">Add the Media Player here...</string>
 

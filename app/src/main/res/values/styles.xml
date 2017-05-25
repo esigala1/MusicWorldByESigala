@@ -22,11 +22,10 @@
 
     <!-- Style for a TextView -->
     <style name="TextViewInfoStyle">
-        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textStyle">italic</item>
-        <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_marginTop">@dimen/text_view_info_margin_top</item>
         <item name="android:layout_marginLeft">@dimen/app_view_distance</item>
         <item name="android:layout_marginRight">@dimen/app_view_distance</item>
