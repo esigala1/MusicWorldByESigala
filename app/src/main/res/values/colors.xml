@@ -10,6 +10,7 @@
     <color name="itemTextColor">#e6fffd</color>
     <!-- Media Player Buttons -->
     <color name="mediaPleyerButton">#debc29</color>
+
     <!-- Background color of "Now Playing" activity -->
     <color name="backgroundNowPlaying">#a91f25</color>
     <!-- Background color of "Songs" activity -->
@@ -18,4 +19,17 @@
     <color name="backgroundArtist">#8c6117</color>
     <!-- Background color of "Song of the Day" activity -->
     <color name="backgroundSongOfTheDay">#3248a1</color>
+
+    <!-- Background color of "Main" info -->
+    <color name="infoMain">#4d9bd7</color>
+    <!-- Background color of "Now Playing" info -->
+    <color name="infoNowPlaying">#d74d53</color>
+    <!-- Background color of "Songs" info -->
+    <color name="infoSongs">#ba4dbf</color>
+    <!-- Background color of "Artist" info -->
+    <color name="infoArtist">#c29952</color>
+    <!-- Background color of "Song of the Day" info -->
+    <color name="infoSongOfTheDay">#5269c2</color>
+    <!-- Info text color -->
+    <color name="infoTextColor">#ffffff</color>
 </resources>

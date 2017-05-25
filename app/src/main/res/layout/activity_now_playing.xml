@@ -7,18 +7,10 @@
     tools:context=".NowPlayingActivity">
 
     <TextView
-        android:id="@+id/text_view_song_title"
-        style="@style/TextViewInfoStyle"
-        android:text="@string/text_view_song_title"
-        android:textSize="@dimen/song_title_size"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/text_view_artist_band"
-        style="@style/TextViewInfoStyle"
-        android:layout_below="@id/text_view_song_title"
-        android:layout_marginTop="@dimen/app_view_distance"
-        android:text="@string/text_view_artist_band" />
+        android:id="@+id/text_view_now_playing_info"
+        style="@style/InfoText"
+        android:background="@color/infoNowPlaying"
+        android:text="@string/text_view_now_playing_info" />
 
     <Button
         android:id="@+id/button_now_playing_activity_to_main"
@@ -31,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/button_now_playing_activity_to_main"
-        android:layout_below="@id/text_view_artist_band"
+        android:layout_below="@id/text_view_now_playing_info"
         android:layout_margin="@dimen/app_view_distance">
 
         <RelativeLayout
@@ -40,31 +32,32 @@
 
             <ImageView
                 android:id="@+id/image_view_cover"
-                android:layout_alignParentTop="true"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
+                android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="@dimen/app_view_distance"
-                android:scaleType="centerCrop" />
+                android:scaleType="centerCrop"
+                android:src="@drawable/song_cover_placeholder"/>
 
             <!-- Song Name -->
             <TextView
                 android:id="@+id/text_view_song_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                tools:text="Song Name"
-                android:textStyle="bold"
                 android:layout_below="@id/image_view_cover"
-                android:layout_centerHorizontal="true"/>
+                android:layout_centerHorizontal="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                tools:text="Song Name"/>
 
             <!-- Current Position -->
             <TextView
                 android:id="@+id/text_view_current_position"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
                 android:layout_alignBaseline="@id/text_view_song_name"
+                android:layout_alignParentLeft="true"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 tools:text="Current Position" />
 
@@ -73,18 +66,18 @@
                 android:id="@+id/text_view_duration"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
                 android:layout_alignBaseline="@id/text_view_song_name"
+                android:layout_alignParentRight="true"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 tools:text="Duration" />
 
             <SeekBar
-                android:layout_marginTop="@dimen/app_view_distance"
-                android:layout_marginBottom="@dimen/app_view_distance"
                 android:id="@+id/seekBar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/text_view_song_name"/>
+                android:layout_below="@id/text_view_song_name"
+                android:layout_marginBottom="@dimen/app_view_distance"
+                android:layout_marginTop="@dimen/app_view_distance"/>
 
             <!-- Media Player Buttons -->
             <LinearLayout

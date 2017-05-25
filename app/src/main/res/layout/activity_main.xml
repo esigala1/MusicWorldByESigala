@@ -12,6 +12,13 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/text_view_song_of_the_day_info"
+            style="@style/InfoText"
+            android:layout_marginBottom="@dimen/app_view_distance"
+            android:background="@color/infoMain"
+            android:text="@string/text_view_main_info"/>
+
+        <TextView
             android:id="@+id/textViewNowPlaying"
             style="@style/ListItemStyle"
             android:text="@string/category_now_playing" />

@@ -10,38 +10,39 @@
     <!-- Category name for "Song of the Day" [CHAR LIMIT=20] -->
     <string name="category_song_of_the_day">@string/activity_name_song_of_the_day</string>
 
+    <!-- Info about Main activity. -->
+    <string name="text_view_main_info">This screen is the main screen of the app and contains links to the rest activities of the app.</string>
+
     <!-- Title for "Now Playing" activity. [CHAR LIMIT=12] -->
     <string name="activity_name_now_playing">Now Playing</string>
-    <!-- Now playing => Song Title. -->
-    <string name="text_view_song_title">Now Playing (Song title here...)</string>
-    <!-- Now playing => Artist/Band Name. -->
-    <string name="text_view_artist_band">Now Playing (Artist/Band here...)</string>
+    <!-- Info about "Now Playing" activity. -->
+    <string name="text_view_now_playing_info">This screen contains info about the song that is currently playing from the media player.</string>
     <!-- Text to indicate the position of the media player. -->
     <string name="media_player_here">Add the Media Player here...</string>
 
     <!-- Title for "Songs" activity. [CHAR LIMIT=12] -->
     <string name="activity_name_songs">Songs</string>
-    <!-- Info about "Now Playing" activity. -->
-    <string name="text_view_info_songs">Info: Select a song from the list below to play...</string>
+    <!-- Info about "Songs" activity. -->
+    <string name="text_view_songs_info">This screen contains a list with the songs of the app. Click on a song from the list below to display corresponding info...</string>
 
     <!-- Title for "Artist/Band" activity. [CHAR LIMIT=12] -->
     <string name="activity_name_artist_band">Artist/Band</string>
-    <!-- Info about "Now Playing" activity. -->
-    <string name="text_view_info_artist_band">Info: Select an artist/band from the list below to display available songs...</string>
+    <!-- Info about "Artist/Band" activity. -->
+    <string name="text_view_artist_band_info">This screen contains a list with the artists/bands of the app. Click on an artist/band from the list below to display corresponding info...</string>
 
     <!-- Title for "Song Of The Day" activity. [CHAR LIMIT=12] -->
     <string name="activity_name_song_of_the_day">Song of the Day</string>
-    <!-- Song of the day => Title. -->
-    <string name="text_view_song_of_the_day_title">Song of the Day (Title here...)</string>
-    <!-- Song of the day => Artist/Band name. -->
-    <string name="text_view_song_of_the_day_artist_band">Song of the Day (Artist/Band here...)</string>
+    <!-- Info about "Song Of The Day" activity. -->
+    <string name="text_view_song_of_the_day_info">This screen contains the most loved song of the day.</string>
+    <!-- Song of the day => Title - Artist/Band name. -->
+    <string name="text_view_song_of_the_day">Title - Artist/Band</string>
     <!-- Toast message for playing the song of the day. -->
-    <string name="playing_the_song_of_the_day">Play the song of the day...</string>
+    <string name="playing_the_song_of_the_day">Play <xliff:g id="song_of_the_day" example="So What - P!nk">%s</xliff:g>!!</string>
 
     <!-- Button texts -->
     <string name="button_now_playing">Now Playing</string>
     <string name="button_home">Go Home</string>
-    <string name="button_play_song_of_the_day">Play</string>
+    <string name="button_play_song_of_the_day">Play it !!</string>
 
     <!-- Media Player Buttons -->
     <string name="play"><![CDATA[>]]></string>

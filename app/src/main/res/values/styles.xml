@@ -20,7 +20,7 @@
         <item name="android:background">@drawable/ocean_background</item>
     </style>
 
-    <!-- Style for a TextView (info about activity) -->
+    <!-- Style for a TextView -->
     <style name="TextViewInfoStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -28,8 +28,15 @@
         <item name="android:textStyle">italic</item>
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_marginTop">@dimen/text_view_info_margin_top</item>
-        <item name="android:layout_marginLeft">@dimen/text_view_info_margin_top</item>
-        <item name="android:layout_marginRight">@dimen/text_view_info_margin_top</item>
+        <item name="android:layout_marginLeft">@dimen/app_view_distance</item>
+        <item name="android:layout_marginRight">@dimen/app_view_distance</item>
+    </style>
+
+    <!-- Style for a TextView (Info about activity) -->
+    <style name="InfoText" parent="TextViewInfoStyle">
+        <item name="android:alpha">0.5</item>
+        <item name="android:padding">@dimen/app_view_distance</item>
+        <item name="android:textColor">@color/infoTextColor</item>
     </style>
 
     <!-- Style for a Button -->

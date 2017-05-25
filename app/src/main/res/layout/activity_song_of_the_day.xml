@@ -7,29 +7,32 @@
     tools:context=".SongOfTheDayActivity">
 
     <TextView
-        android:id="@+id/text_view_song_of_the_day_title"
-        style="@style/TextViewInfoStyle"
-        android:text="@string/text_view_song_of_the_day_title"
-        android:textSize="@dimen/song_title_size"
-        android:textStyle="bold" />
+        android:id="@+id/text_view_song_of_the_day_info"
+        style="@style/InfoText"
+        android:background="@color/infoSongOfTheDay"
+        android:text="@string/text_view_song_of_the_day_info" />
 
     <TextView
-        android:id="@+id/text_view_of_the_day_artist_band"
+        android:id="@+id/text_view_song_of_the_day"
         style="@style/TextViewInfoStyle"
-        android:layout_below="@id/text_view_song_of_the_day_title"
+        android:layout_below="@id/text_view_song_of_the_day_info"
+        android:layout_centerVertical="true"
         android:layout_marginTop="@dimen/app_view_distance"
-        android:text="@string/text_view_song_of_the_day_artist_band" />
+        android:textSize="@dimen/song_title_size"
+        android:textStyle="bold"
+        tools:text="@string/text_view_song_of_the_day" />
 
     <Button
         android:id="@+id/button_activity_song_of_the_day_select"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/text_view_of_the_day_artist_band"
+        android:layout_below="@id/text_view_song_of_the_day"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/app_view_distance"
         android:background="@android:color/black"
         android:padding="@dimen/app_view_distance"
         android:text="@string/button_play_song_of_the_day"
+        android:textAllCaps="false"
         android:textColor="@android:color/white" />
 
     <Button

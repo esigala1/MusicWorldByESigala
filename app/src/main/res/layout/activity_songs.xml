@@ -8,8 +8,9 @@
 
     <TextView
         android:id="@+id/text_view_songs_activity_about"
-        style="@style/TextViewInfoStyle"
-        android:text="@string/text_view_info_songs" />
+        style="@style/InfoText"
+        android:background="@color/infoSongs"
+        android:text="@string/text_view_songs_info" />
 
     <Button
         android:id="@+id/button_activity_songs_to_now_playing"

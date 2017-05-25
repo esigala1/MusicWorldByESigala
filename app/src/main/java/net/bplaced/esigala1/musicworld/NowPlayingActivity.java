@@ -21,7 +21,6 @@ public class NowPlayingActivity extends AppCompatActivity {
     private ImageView ivSongCover;
     private Toast mToast;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -112,7 +111,7 @@ public class NowPlayingActivity extends AppCompatActivity {
             mToast.cancel();
         }
         // Instantiate the Toast object.
-        mToast = Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT);
+        mToast = Toast.makeText(this, message, Toast.LENGTH_SHORT);
         // Show the toast message.
         mToast.show();
     }
