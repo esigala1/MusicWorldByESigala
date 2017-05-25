@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.media.MediaPlayer; // This namespace will be used to import a MediaPlayer.
+import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -17,6 +18,7 @@ public class NowPlayingActivity extends AppCompatActivity {
     private int backwardTime = 3000; // 3 sec backward time
     private SeekBar seekbar;
     private TextView tvCurrentPosition, tvDuration, tvSongName;
+    private ImageView ivSongCover;
     private Toast mToast;
 
 
@@ -32,11 +34,14 @@ public class NowPlayingActivity extends AppCompatActivity {
         tvCurrentPosition = (TextView)findViewById(R.id.text_view_current_position);
         tvDuration = (TextView)findViewById(R.id.text_view_duration);
         tvSongName = (TextView)findViewById(R.id.text_view_song_name);
+        ivSongCover = (ImageView) findViewById(R.id.image_view_cover);
         seekbar = (SeekBar)findViewById(R.id.seekBar);
         // Set the texts.
         tvSongName.setText("P!nk - So What");
         tvCurrentPosition.setText("0:00");
         tvDuration.setText("3:45");
+        // Set the image.
+        ivSongCover.setImageResource(R.drawable.pink_so_what);
 
         // Set a clicklistener on Button ">".
         btnPlay.setOnClickListener(new View.OnClickListener() {

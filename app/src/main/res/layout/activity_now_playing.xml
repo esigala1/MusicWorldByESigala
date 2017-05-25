@@ -39,13 +39,12 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/image_view"
+                android:id="@+id/image_view_cover"
                 android:layout_alignParentTop="true"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="@dimen/app_view_distance"
-                android:src="@drawable/pink_so_what"
                 android:scaleType="centerCrop" />
 
             <!-- Song Name -->
@@ -56,7 +55,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 tools:text="Song Name"
                 android:textStyle="bold"
-                android:layout_below="@id/image_view"
+                android:layout_below="@id/image_view_cover"
                 android:layout_centerHorizontal="true"/>
 
             <!-- Current Position -->
