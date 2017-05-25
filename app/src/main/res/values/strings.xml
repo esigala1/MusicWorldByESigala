@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Music World</string>
     <!-- Category name for "Now Playing" [CHAR LIMIT=20] -->
@@ -42,4 +42,17 @@
     <string name="button_now_playing">Now Playing</string>
     <string name="button_home">Go Home</string>
     <string name="button_play_song_of_the_day">Play</string>
+
+    <!-- Media Player Buttons -->
+    <string name="play"><![CDATA[>]]></string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="pause">||</string>
+
+    <!-- Toast messages for Media Player -->
+    <string name="msg_play">Playing song</string>
+    <string name="msg_pause">Pause song</string>
+    <string name="msg_backward">You have jumped backward <xliff:g id="seconds" example="3">%d</xliff:g> seconds</string>
+    <string name="msg_forward">You have jumped forward <xliff:g id="seconds" example="3">%d</xliff:g> seconds</string>
+
 </resources>

@@ -48,4 +48,14 @@
         <item name="android:text">@string/button_now_playing</item>
     </style>
 
+    <!-- Style for a Media Player Button -->
+    <style name="MediaPlayerButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">@dimen/media_player_button_margin</item>
+        <item name="android:layout_marginRight">@dimen/media_player_button_margin</item>
+        <item name="android:background">@color/mediaPleyerButton</item>
+    </style>
+
 </resources>

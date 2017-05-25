@@ -8,6 +8,8 @@
     <color name="colorAccent">#ffff00</color>
     <!-- Text color of the list item -->
     <color name="itemTextColor">#e6fffd</color>
+    <!-- Media Player Buttons -->
+    <color name="mediaPleyerButton">#debc29</color>
     <!-- Background color of "Now Playing" activity -->
     <color name="backgroundNowPlaying">#a91f25</color>
     <!-- Background color of "Songs" activity -->

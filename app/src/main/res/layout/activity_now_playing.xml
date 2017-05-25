@@ -20,23 +20,99 @@
         android:layout_marginTop="@dimen/app_view_distance"
         android:text="@string/text_view_artist_band" />
 
-    <TextView
-        android:id="@+id/media_player"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/media_player_height"
-        android:layout_below="@id/text_view_artist_band"
-        android:layout_margin="@dimen/media_player_margin"
-        android:alpha="0.7"
-        android:background="@android:color/black"
-        android:gravity="center"
-        android:text="@string/media_player_here"
-        android:textColor="@android:color/white"
-        android:textStyle="italic"/>
-
     <Button
         android:id="@+id/button_now_playing_activity_to_main"
         style="@style/ButtonBottomCenter"
         android:background="@color/colorPrimary"
         android:text="@string/button_home"
         android:textColor="@android:color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/button_now_playing_activity_to_main"
+        android:layout_below="@id/text_view_artist_band"
+        android:layout_margin="@dimen/app_view_distance">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_alignParentTop="true"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/app_view_distance"
+                android:src="@drawable/pink_so_what"
+                android:scaleType="centerCrop" />
+
+            <!-- Song Name -->
+            <TextView
+                android:id="@+id/text_view_song_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                tools:text="Song Name"
+                android:textStyle="bold"
+                android:layout_below="@id/image_view"
+                android:layout_centerHorizontal="true"/>
+
+            <!-- Current Position -->
+            <TextView
+                android:id="@+id/text_view_current_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignBaseline="@id/text_view_song_name"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                tools:text="Current Position" />
+
+            <!-- Song Duration -->
+            <TextView
+                android:id="@+id/text_view_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignBaseline="@id/text_view_song_name"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                tools:text="Duration" />
+
+            <SeekBar
+                android:layout_marginTop="@dimen/app_view_distance"
+                android:layout_marginBottom="@dimen/app_view_distance"
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view_song_name"/>
+
+            <!-- Media Player Buttons -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/seekBar">
+
+                <Button
+                    android:id="@+id/button_rewind"
+                    style="@style/MediaPlayerButton"
+                    android:text="@string/rewind" />
+
+                <Button
+                    android:id="@+id/button_pause"
+                    style="@style/MediaPlayerButton"
+                    android:text="@string/pause" />
+
+                <Button
+                    android:id="@+id/button_play"
+                    style="@style/MediaPlayerButton"
+                    android:text="@string/play" />
+
+                <Button
+                    android:id="@+id/button_forward"
+                    style="@style/MediaPlayerButton"
+                    android:text="@string/forward" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>
