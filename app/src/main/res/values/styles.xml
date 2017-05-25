@@ -21,7 +21,7 @@
     </style>
 
     <!-- Style for a TextView -->
-    <style name="TextViewInfoStyle">
+    <style name="TextViewHeaderStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@android:color/white</item>
@@ -32,7 +32,7 @@
     </style>
 
     <!-- Style for a TextView (Info about activity) -->
-    <style name="InfoText" parent="TextViewInfoStyle">
+    <style name="InfoText" parent="TextViewHeaderStyle">
         <item name="android:alpha">0.5</item>
         <item name="android:padding">@dimen/app_view_distance</item>
         <item name="android:textColor">@color/infoTextColor</item>

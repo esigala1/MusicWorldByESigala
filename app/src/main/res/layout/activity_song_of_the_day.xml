@@ -14,9 +14,10 @@
 
     <TextView
         android:id="@+id/text_view_song_of_the_day"
-        style="@style/TextViewInfoStyle"
+        style="@style/TextViewHeaderStyle"
+        android:layout_width="wrap_content"
         android:layout_below="@id/text_view_song_of_the_day_info"
-        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/app_view_distance"
         android:textSize="@dimen/song_title_size"
         android:textStyle="bold"
