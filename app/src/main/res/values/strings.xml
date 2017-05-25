@@ -16,7 +16,7 @@
     <!-- Title for "Now Playing" activity. [CHAR LIMIT=12] -->
     <string name="activity_name_now_playing">Now Playing</string>
     <!-- Info about "Now Playing" activity. -->
-    <string name="text_view_now_playing_info">This screen contains the Media Player (song play/pause/rewind/forward) and info about the song that is currently playing. Note: \"android.media.MediaPlayer\" namespace must be imported to be able to use the \"MediaPlayer\" class.</string>
+    <string name="text_view_now_playing_info">This screen contains the Media Player (play/pause/rewind/forward the selected song) and info about the song that is currently playing. Note: \"android.media.MediaPlayer\" namespace must be imported to be able to use the \"MediaPlayer\" class.</string>
     <!-- Text to indicate the position of the media player. -->
     <string name="media_player_here">Add the Media Player here...</string>
 
